@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url('Montserrat-Medium.eot'),
+        url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.eot'),
+        url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.site__content-examples {
+    background: url("../img/background.png");
+}
+.portfolio {
+    margin-top: 0;
+}
+.slider {
+    margin-left: 10%;
+    width: 80vw;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 105px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.prev {
+ left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+h1 {
+    font-family: "Montserrat-bold";
+}
+
+.small-title {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 17px;
+}
+.white-title {
+    color: white;
+}
+
+
+.portfolio__h1 {
+   padding-top: 50px;
+   padding-bottom: 35px;
+   margin-top: 0;
+}
+
+.excursion__h1 {
+    font-size: 19px;
+    text-align: center;
+    padding-left: 3%;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .slider {
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 30px;
+    padding-left: 30px;
+    }
+
+    .small-title {
+        font-size: 30px;
+    }
+    .white-title {
+        color: white;
+    }
+    
+    
+    .portfolio__h1 {
+    padding-top: 73px;
+    }
+    
+    .excursion__h1 {
+        font-size: 36px;
+    }
+    
+ }
+
+
+@media screen and (min-width: 1200px) {
+
+    .slider {
+        width: 1260px;
+        margin-left: 1%;
+        padding-right: 15px;
+    padding-left: 40px;
+    }
+
+    .small-title {
+        font-size: 30px;
+    }
+    .white-title {
+        color: white;
+    }
+    
+    
+    .portfolio__h1 {
+    padding-top: 73px;
+    }
+    
+    .excursion__h1 {
+        font-size: 36px;
+    }
+    
+ }
+@media screen and (min-width: 1400px) {
+
+    .slider {
+        width: 1240px;
+        margin-left: 7.5%;
+        padding-right: 20px;
+    padding-left: 40px;
+    }
+
+    .small-title {
+        font-size: 30px;
+    }
+    .white-title {
+        color: white;
+    }
+    
+    
+    .portfolio__h1 {
+    padding-top: 73px;
+    }
+    
+    .excursion__h1 {
+        font-size: 36px;
+    }
+    
+ }
