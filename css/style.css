@@ -27,8 +27,8 @@
     margin-top: 0;
 }
 .slider {
-    margin-left: 10%;
-    width: 80vw;
+    margin-left: 0;
+    width: 95vw;
     position: relative;
     padding-right: 20px;
     padding-left: 40px;
@@ -69,6 +69,7 @@ h1 {
    padding-top: 50px;
    padding-bottom: 35px;
    margin-top: 0;
+   font-size: 16px;
 }
 
 .excursion__h1 {
@@ -76,6 +77,59 @@ h1 {
     text-align: center;
     padding-left: 3%;
 }
+
+@media screen and (min-width: 500px) {
+
+    .slider {
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 10px;
+    padding-left: 10px;
+    }
+
+    .small-title {
+        font-size: 25px;
+    }
+    .white-title {
+        color: white;
+    }
+    
+    
+    .portfolio__h1 {
+    padding-top: 73px;
+    }
+    
+    .excursion__h1 {
+        font-size: 30px;
+    }
+    
+ }
+@media screen and (min-width: 700px) {
+
+    .slider {
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 30px;
+    padding-left: 30px;
+    }
+
+    .small-title {
+        font-size: 30px;
+    }
+    .white-title {
+        color: white;
+    }
+    
+    
+    .portfolio__h1 {
+    padding-top: 73px;
+    }
+    
+    .excursion__h1 {
+        font-size: 36px;
+    }
+    
+ }
 
 @media screen and (min-width: 1000px) {
 
@@ -108,10 +162,10 @@ h1 {
 @media screen and (min-width: 1200px) {
 
     .slider {
-        width: 1260px;
+        width: 1250px;
         margin-left: 1%;
-        padding-right: 15px;
-    padding-left: 40px;
+        padding-right: 10px;
+    padding-left: 35px;
     }
 
     .small-title {
@@ -136,8 +190,8 @@ h1 {
     .slider {
         width: 1240px;
         margin-left: 7.5%;
-        padding-right: 20px;
-    padding-left: 40px;
+        padding-right: 40px;
+    padding-left: 50px;
     }
 
     .small-title {
