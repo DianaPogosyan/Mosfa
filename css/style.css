@@ -36,10 +36,9 @@
 }
 .slider {
     margin-left: 0;
-    width: 95vw;
+    width: 96%;
     position: relative;
-    padding-right: 20px;
-    padding-left: 40px;
+    padding-left: 2%;
 }
 .prev,
 .next {
@@ -139,7 +138,7 @@ h1 {
     background: url('./img/background.png');
     padding-left: 45px;
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 10px;
     color:#575757;
     background: url('../img/check1.png') no-repeat left 20px top 0, url('../img/check2.png') no-repeat left 25px top 4.5px;
 
@@ -206,10 +205,10 @@ h1 {
 @media screen and (min-width: 500px) {
 
     .slider {
-        width: 80%;
-        margin-left: 10%;
-        padding-right: 50px;
-    padding-left: 50px;
+        width: 98%;
+        margin-left: 1%;
+        padding-right: 5px;
+    padding-left: 5px;
     }
 
     .small-title {
@@ -318,6 +317,7 @@ h1 {
      background: url('./img/background.png');
      padding-left: 55px;
      margin-top: 10px;
+     font-size: 14px;
      color:#575757;
      background: url('../img/check1.png') no-repeat left 30px top 2px, url('../img/check2.png') no-repeat left 35px top 7px;
  
