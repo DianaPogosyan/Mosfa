@@ -22,6 +22,7 @@
 
 * {
     outline: none;
+    font-family: "Montserrat-medium";
 }
 
 .site__content-examples {
@@ -59,6 +60,7 @@ h1 {
 }
 
 .small-title {
+    font-family: "Montserrat-bold";
     font-size: 16px;
     text-align: center;
     padding-top: 23px;
@@ -82,13 +84,13 @@ h1 {
 }
 
  .excursion__registration {
-   width: 98%;
-    height: 370px;
+   width: 80%;
+    height: 270px;
     background: url("./img/form-back.png");
     background-color: white;
     position: absolute;
     top: 620px;
-    left: 1%;
+    left: 10%;
 }
 
 
@@ -113,30 +115,29 @@ h1 {
 
 
 .form__input-1 {
-    margin-top: 25px;
+    margin-top: 15px;
 
 
 }
 .form__input {
-    font-family: "Montserrat-medium";
-    font-size: 14px;
+    font-size: 10px;
     background-image: url("./img/input.png");
     background-color: #efefef;
     border: none;
     color: #353535;
-    width: 90%;
-    height: 42px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    width: 85%;
+    height: 32px;
+    margin-bottom: 8px;
+    margin-left: 5%;
     padding-left: 15px;
     cursor: pointer;
 }
 
 .form__consent {
-    font-family: "Montserrat-medium";
     background: url('./img/background.png');
     padding-left: 45px;
     margin-top: 10px;
+    font-size: 10px;
     color:#575757;
     background: url('../img/check1.png') no-repeat left 20px top 2px, url('../img/check2.png') no-repeat left 25px top 7px;
 
@@ -144,12 +145,12 @@ h1 {
 .form__consent a{
     color: #142277;
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .form__button {
     font-family: 'Montserrat-bold';
-    font-size: 14px;
+    font-size: 10px;
     background-color: #e64839;
     border: none;
     border-radius: 40px;
@@ -157,23 +158,33 @@ h1 {
     height: 62px;
     color: white;
     text-decoration: underline;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 18px;
     
 }
 
+.option {
+    text-align: center;
+    color: #424141;
+    font-size: 16px;
+    width: 90%;
+    margin-left: 4%;
+}
 
+.option__title {
+    color: #262626;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 10%;
+}
 
+.option__communication {
 
+}
+.option__communication-center {
 
-
-
-
-
-
-
-
-
+    
+}
 
 
 .excursion__h1 {
@@ -186,10 +197,10 @@ h1 {
 @media screen and (min-width: 500px) {
 
     .slider {
-        width: 100%;
-        margin-left: 0%;
-        padding-right: 10px;
-    padding-left: 10px;
+        width: 80%;
+        margin-left: 10%;
+        padding-right: 50px;
+    padding-left: 50px;
     }
 
     .small-title {
@@ -207,132 +218,19 @@ h1 {
     .excursion__h1 {
         font-size: 30px;
     }
-    
+    .excursion__registration {
+        top: 700px;
+    }
 
  }
-@media screen and (min-width: 700px) {
+
+ @media screen and (min-width: 600px) {
 
     .slider {
-        width: 100%;
-        margin-left: 0%;
+        width: 80%;
+        margin-left: 10%;
         padding-right: 30px;
     padding-left: 30px;
-    }
-
-    .small-title {
-        font-size: 30px;
-    }
-    .white-title {
-        color: white;
-    }
-    
-    
-    .portfolio__h1 {
-    padding-top: 73px;
-    }
-    
-    .excursion__h1 {
-        font-size: 36px;
-    }
-    
- }
-
-@media screen and (min-width: 1000px) {
- .excursion__registration {
-    width: 78%;
-     height: 370px;
-     background: url("./img/form-back.png");
-     background-color: white;
-     position: absolute;
-     top: 720px;
-     left: 11%;
-     
- 
- }
- 
- ::-webkit-input-placeholder { 
-      color: #575757;
-      vertical-align: center;
- }
- ::-moz-placeholder          { 
-      color: #575757;
-      vertical-align: center;
- } 
- :-moz-placeholder           { 
-      color: #575757;
-      vertical-align: center;
- }
- :-ms-input-placeholder      { 
-      color: #575757;
-      vertical-align: center;
-      
- }
- 
- 
- 
- .form__input-1 {
-     margin-top: 25px;
- 
- 
- }
- .form__input {
-     font-family: "Montserrat-medium";
-     font-size: 14px;
-     background-image: url("./img/input.png");
-     background-color: #efefef;
-     border: none;
-     color: #353535;
-     width: 90%;
-     height: 42px;
-     margin-bottom: 15px;
-     margin-left: 10px;
-     padding-left: 15px;
- }
- 
- .form__consent {
-     font-family: "Montserrat-medium";
-     background: url('./img/background.png');
-     padding-left: 45px;
-     margin-top: 10px;
-     color:#575757;
-     background: url('../img/check1.png') no-repeat left 20px top 2px, url('../img/check2.png') no-repeat left 25px top 7px;
- 
- }
- .form__consent a{
-     color: #142277;
-     text-decoration: underline;
-     font-size: 14px;
- }
- 
- .form__button {
-     font-family: 'Montserrat-bold';
-     font-size: 14px;
-     background-color: #e64839;
-     border: none;
-     border-radius: 40px;
-     width: 90%;
-     height: 62px;
-     color: white;
-     text-decoration: underline;
-     margin-top: 20px;
-     margin-left: 18px;
-     
- }
- 
- 
- 
- 
-    
- }
-
-
-@media screen and (min-width: 600px) {
-
-    .slider {
-        width: 100%;
-        margin-left: 0%;
-        padding-right: 10px;
-    padding-left: 10px;
     }
 
     .small-title {
@@ -388,8 +286,8 @@ h1 {
  
  
  }
+ 
  .form__input {
-     font-family: "Montserrat-medium";
      font-size: 14px;
      background-image: url("./img/input.png");
      background-color: #efefef;
@@ -403,7 +301,6 @@ h1 {
  }
  
  .form__consent {
-     font-family: "Montserrat-medium";
      background: url('./img/background.png');
      padding-left: 55px;
      margin-top: 10px;
@@ -432,21 +329,26 @@ h1 {
      
  }
  
+ .option {
+     margin-top: 15%;
+ }
  
- 
- 
+ .option__title {
+     margin-left: 15%;
+ }
     
  }
-@media screen and (min-width: 700px) {
+
+ @media screen and (min-width: 700px) {
     .site__content-examples {
         background: url("../img/background.png");
         height: 100%;
     }
     .slider {
-        width: 100%;
-        margin-left: 0%;
+        width: 90%;
+        margin-left: 5%;
         padding-right: 30px;
-    padding-left: 30px;
+        padding-left: 30px;
     }
 
     .small-title {
@@ -503,7 +405,6 @@ h1 {
      
      }
      .form__input {
-         font-family: "Montserrat-medium";
          font-size: 14px;
          background-image: url("./img/input.png");
          background-color: #efefef;
@@ -517,7 +418,6 @@ h1 {
      }
      
      .form__consent {
-         font-family: "Montserrat-medium";
          background: url('./img/background.png');
          padding-left: 65px;
          margin-top: 10px;
@@ -550,34 +450,44 @@ h1 {
  
  }
 
-@media screen and (min-width: 1000px) {
-    .site__content-examples {
-       background: url("../img/background.png");
-       height: 100%;
-    }
-    .slider {
-        width: 100%;
-        margin-left: 0%;
-        padding-right: 30px;
-    padding-left: 30px;
-    }
+ @media screen and (min-width: 800px) {
 
-    .small-title {
-        font-size: 30px;
-    }
-    .white-title {
-        color: white;
-    }
-    
-    
-    .portfolio__h1 {
-    padding-top: 73px;
-    }
+.slider {
+    width: 90%;
+    margin-left: 5%;
+}
+
+ }
+
+@media screen and (min-width: 1000px) {
         
-    .excursion {
-        position: relative;
-        height: 560px;
-        }
+    .site__content-examples {
+        background: url("../img/background.png");
+        height: 100%;
+     }
+     .slider {
+         width: 100%;
+         margin-left: 0%;
+         padding-right: 30px;
+     padding-left: 30px;
+     }
+ 
+     .small-title {
+         font-size: 30px;
+     }
+     .white-title {
+         color: white;
+     }
+     
+     
+     .portfolio__h1 {
+     padding-top: 73px;
+     }
+         
+     .excursion {
+         position: relative;
+         height: 560px;
+         }
   
   
         .excursion__registration {
@@ -618,7 +528,6 @@ h1 {
        
        }
        .form__input {
-           font-family: "Montserrat-medium";
            font-size: 16px;
            background-image: url("./img/input.png");
            background-color: #efefef;
@@ -632,10 +541,10 @@ h1 {
        }
        
        .form__consent {
-           font-family: "Montserrat-medium";
            background: url('./img/background.png');
            padding-left: 65px;
            margin-top: 10px;
+           font-size: 14px;
            color:#575757;
            background: url('../img/check1.png') no-repeat left 40px top 2px, url('../img/check2.png') no-repeat left 45px top 7px;
        
@@ -664,9 +573,51 @@ h1 {
      text-align: right;
      left: 4%;
   }
+
+  .option {
     
+     height: 459px;
+     position: relative;
+     margin-top: 0;
+ } 
+ .option__title {
+    text-align: left;
+    margin-left: 25%
+}
+
+ .option__communication {
+     position: absolute;
+     width: 373px;
+     
+ }
+ .option__communication p {
+     position: absolute;
+     width: 343px;
+     
  }
 
+
+
+ .option__communication-left {
+     left: 0px;
+ }
+
+
+ .option__communication-center {
+    left: 380px; 
+ }
+ 
+ .option__communication-right {
+     left: 760px;
+}
+
+
+
+
+
+    
+ }
+      
 
 @media screen and (min-width: 1200px) {
     .site__content-examples {
@@ -736,7 +687,6 @@ h1 {
      
      }
      .form__input {
-         font-family: "Montserrat-medium";
          font-size: 16px;
          background-image: url("./img/input.png");
          background-color: #efefef;
@@ -745,12 +695,11 @@ h1 {
          width: 490px;
          height: 62px;
          margin-bottom: 25px;
-         margin-left: 40px;
+         margin-left: 5%;
          padding-left: 25px;
      }
      
      .form__consent {
-         font-family: "Montserrat-medium";
          background: url('./img/background.png');
          padding-left: 65px;
          margin-top: 10px;
@@ -787,7 +736,18 @@ h1 {
     top: 56px;
     width: 420px;
     }
-    
+    .option {
+        margin-left: 50px;
+    }
+    .option__communication-center {
+        left: 400px;
+    }
+
+    .option__communication-right {
+        left: 800px;
+    }
+    .option__communication p {
+     width: 100%;
  }
 @media screen and (min-width: 1400px) {
     .site__content-examples {
@@ -828,7 +788,7 @@ h1 {
      background-color: white;
      position: absolute;
      top: 540px;
-     left: 745px;
+     left: 755px;
      
  
  }
@@ -859,7 +819,6 @@ h1 {
  
  }
  .form__input {
-     font-family: "Montserrat-medium";
      font-size: 16px;
      background-image: url("./img/input.png");
      background-color: #efefef;
@@ -868,14 +827,14 @@ h1 {
      width: 490px;
      height: 62px;
      margin-bottom: 25px;
-     margin-left: 40px;
+     margin-left: 6%;
      padding-left: 25px;
  }
  
  .form__consent {
-     font-family: "Montserrat-medium";
      background: url('./img/background.png');
      padding-left: 65px;
+     font-size: 14px;
      margin-top: 10px;
      color:#575757;
      background: url('../img/check1.png') no-repeat left 40px top 2px, url('../img/check2.png') no-repeat left 45px top 7px;
@@ -906,11 +865,14 @@ h1 {
         text-align: right;
         padding-left: 3%;
         position: absolute;
-        left: 180px;
+        left: 190px;
         top: 56px;
         width: 420px;
     }
-    
+    .option {
+        margin-left: 165px;
+    }
+
  }
 @media screen and (min-width: 1800px) {
     .site__content-examples {
@@ -981,7 +943,6 @@ h1 {
  
  }
  .form__input {
-     font-family: "Montserrat-medium";
      font-size: 16px;
      background-image: url("./img/input.png");
      background-color: #efefef;
@@ -996,7 +957,6 @@ h1 {
  }
  
  .form__consent {
-     font-family: "Montserrat-medium";
      background: url('./img/background.png');
      padding-left: 65px;
      margin-top: 10px;
@@ -1031,6 +991,15 @@ h1 {
         position: absolute;
         left: 378px;
         top: 56px;
-        width: 420px;    }
+        width: 420px;    
+    }
     
+    .option {
+        margin-left: 373px;
+    }
+
+.site__content-city {
+
+}
+
  }
