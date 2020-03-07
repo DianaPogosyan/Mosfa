@@ -42,18 +42,18 @@
 }
 .prev,
 .next {
-  position: absolute;
-  top: 105px;
-  z-index: 2;
-  cursor: pointer;
+    position: absolute;
+    top: 105px;
+    z-index: 2;
+    cursor: pointer;
 }
 
 .prev {
- left: 0;
+    left: 0;
 }
 
 .next {
-  right: 0;
+    right: 0;
 }
 
 h1 {
@@ -73,21 +73,20 @@ h1 {
 
 
 .portfolio__h1 {
-   padding-top: 50px;
-   padding-bottom: 35px;
-   margin-top: 0;
-   font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    margin-top: 0;
+    font-size: 16px;
 
 }
 
 .excursion {
-  position: relative;
+    position: relative;
 }
 
  .excursion__registration {
-   width: 80%;
-    height: 290px;
-    background: url("./img/form-back.png");
+    width: 80%;
+    height: 300px;
     background-color: white;
     position: absolute;
     top: 600px;
@@ -136,11 +135,11 @@ h1 {
 
 .form__consent {
     background: url('./img/background.png');
-    padding-left: 45px;
+    padding-left: 35px;
     margin-top: 0px;
     font-size: 10px;
     color:#575757;
-    background: url('../img/check1.png') no-repeat left 20px top 0, url('../img/check2.png') no-repeat left 25px top 4.5px;
+    background: url('../img/check1.png') no-repeat left 10px top 0, url('../img/check2.png') no-repeat left 15px top 4.5px;
 
 }
 .form__consent a{
@@ -183,13 +182,6 @@ h1 {
     margin-top: 30px;
 }
 
-.option__communication {
-
-}
-.option__communication-center {
-
-    
-}
 .option__communication p {
     width: 80%;
     margin-left: 10%;
@@ -205,22 +197,22 @@ h1 {
 @media screen and (min-width: 500px) {
 
     .slider {
-        width: 98%;
-        margin-left: 1%;
-        padding-right: 5px;
-    padding-left: 5px;
+         width: 98%;
+         margin-left: 1%;
+         padding-right: 5px;
+         padding-left: 5px;
     }
 
     .small-title {
-        font-size: 25px;
+         font-size: 25px;
     }
     .white-title {
-        color: white;
+         color: white;
     }
     
     
     .portfolio__h1 {
-    padding-top: 73px;
+         padding-top: 73px;
     }
     
     .excursion__h1 {
@@ -235,7 +227,7 @@ h1 {
  @media screen and (min-width: 600px) {
 
    .site__content-examples {
-       height: 1200px;
+        height: 1200px;
    }
 
     .slider {
@@ -252,7 +244,7 @@ h1 {
     
     
     .portfolio__h1 {
-    padding-top: 73px;
+        padding-top: 73px;
     }
     
     .excursion__h1 {
@@ -263,98 +255,98 @@ h1 {
         font-size: 30px;
     }
     
- .excursion__registration {
-    width: 70%;
-     height: 390px;
-     background-color: white;
-     position: absolute;
-     top: 720px;
-     left: 15%;
+    .excursion__registration {
+        width: 70%;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        top: 720px;
+        left: 15%;
      
  
- }
+     }
  
- ::-webkit-input-placeholder { 
-      color: #575757;
-      vertical-align: center;
- }
- ::-moz-placeholder          { 
-      color: #575757;
-      vertical-align: center;
- } 
- :-moz-placeholder           { 
-      color: #575757;
-      vertical-align: center;
- }
- :-ms-input-placeholder      { 
-      color: #575757;
-      vertical-align: center;
+    ::-webkit-input-placeholder { 
+        color: #575757;
+        vertical-align: center;
+    }
+    ::-moz-placeholder          { 
+        color: #575757;
+        vertical-align: center;
+    } 
+    :-moz-placeholder           { 
+        color: #575757;
+        vertical-align: center;
+    }
+  :-ms-input-placeholder      { 
+        color: #575757;
+        vertical-align: center;
       
- }
+    }
  
  
  
- .form__input-1 {
-     margin-top: 35px;
+   .form__input-1 {
+       margin-top: 35px;
  
  
- }
+    }
 
- .form__input {
-     font-size: 14px;
-     background-image: url("./img/input.png");
-     background-color: #efefef;
-     border: none;
-     color: #353535;
-     width: 84%;
-     height: 52px;
-     margin-bottom: 20px;
-     margin-left: 6.5%;
-     padding-left: 15px;
- }
+    .form__input {
+       font-size: 14px;
+       background-image: url("./img/input.png");
+       background-color: #efefef;
+       border: none;
+       color: #353535;
+       width: 84%;
+       height: 52px;
+       margin-bottom: 20px;
+       margin-left: 6.5%;
+       padding-left: 15px;
+    }
  
- .form__consent {
-     background: url('./img/background.png');
-     padding-left: 55px;
-     margin-top: 10px;
-     font-size: 14px;
-     color:#575757;
-     background: url('../img/check1.png') no-repeat left 30px top 2px, url('../img/check2.png') no-repeat left 35px top 7px;
+    .form__consent {
+       background: url('./img/background.png');
+       padding-left: 55px;
+       -top: 10px;
+       font-size: 14px;
+       color:#575757;
+       background: url('../img/check1.png') no-repeat left 30px top 2px, url('../img/check2.png') no-repeat left 35px top 7px;
  
- }
- .form__consent a{
-     color: #142277;
-     text-decoration: underline;
-     font-size: 14px;
- }
+    }
+    .form__consent a{
+       color: #142277;
+       text-decoration: underline;
+       font-size: 14px;
+    }
  
- .form__button {
-     font-family: 'Montserrat-bold';
-     font-size: 14px;
-     background-color: #e64839;
-     border: none;
-     border-radius: 40px;
-     width: 90%;
-     height: 62px;
-     color: white;
-     text-decoration: underline;
-     margin-top: 20px;
-     margin-left: 28px;
+    .form__button {
+       font-family: 'Montserrat-bold';
+       font-size: 14px;
+       background-color: #e64839;
+       border: none;
+       border-radius: 40px;
+       width: 90%;
+       height: 62px;
+       color: white;
+       text-decoration: underline;
+       margin-top: 20px;
+       margin-left: 28px;
      
- }
+    }
  
- .option {
-     margin-top: 15%;
-     margin-bottom: 10px;
- }
+    .option {
+       margin-top: 15%;
+       margin-bottom: 10px;
+    }
  
- .option__title {
-     margin-left: 15%;
- }
- .option__communication p {
-    width: 60%;
-    margin-left: 20%;
-} 
+    .option__title {
+       margin-left: 15%;
+    }
+    .option__communication p {
+       width: 60%;
+       margin-left: 20%;
+    } 
 
  }
 
@@ -388,13 +380,13 @@ h1 {
     }
     
     .excursion__registration {
-        width: 70%;
-         height: 390px;
+         width: 60%;
+         height: 400px;
          background: url("./img/form-back.png");
          background-color: white;
          position: absolute;
          top: 790px;
-         left: 15%;
+         left: 20%;
          
      
      }
@@ -475,12 +467,12 @@ h1 {
 
  @media screen and (min-width: 800px) {
 
-.slider {
-    width: 98%;
-    margin-left: 1%;
-}
+    .slider {
+       width: 98%;
+       margin-left: 1%;
+    }
 
- }
+  }
 
 @media screen and (min-width: 1000px) {
         
@@ -492,7 +484,7 @@ h1 {
          width: 100%;
          margin-left: 0%;
          padding-right: 30px;
-     padding-left: 30px;
+        padding-left: 30px;
      }
  
      .small-title {
@@ -504,25 +496,24 @@ h1 {
      
      
      .portfolio__h1 {
-     padding-top: 73px;
+         padding-top: 73px;
      }
          
      .excursion {
          position: relative;
          height: 560px;
-         }
+     }
   
   
-        .excursion__registration {
-          width: 490px;
-           height: 490px;
-           background: url("./img/form-back.png");
-           background-color: white;
-           position: absolute;
-           top: 540px;
-           left: 50%;
+     .excursion__registration {
+        width: 490px;
+        height: 490px;
+        background: url("./img/form-back.png");
+        background-color: white;
+        position: absolute;
+        top: 540px;
+        left: 50%;
            
-       
        }
        
        ::-webkit-input-placeholder { 
@@ -590,58 +581,53 @@ h1 {
            margin-top: 36px;
            margin-left: 41px;
            
-       }
-  .excursion__h1 {
-     position: absolute;
-     text-align: right;
-     left: 4%;
-  }
+        }
+        .excursion__h1 {
+           position: absolute;
+           text-align: right;
+           left: 4%;
+         }
 
-  .option {
-    width: auto;
-     height: 459px;
-     position: relative;
-     margin-top: 0;
-     margin-left: 0;
- } 
- .option__title {
-    text-align: left;
-    margin-left: 25%
-}
+        .option {
+            width: auto;
+            height: 459px;
+            position: relative;
+            margin-top: 0;
+            margin-left: 0;
+         } 
+        .option__title {
+           text-align: left;
+           margin-left: 25%
+     }
 
- .option__communication {
-     position: absolute;
-     width: 373px;
+        .option__communication {
+           position: absolute;
+           width: 373px;
      
- }
- .option__communication p {
-     position: absolute;
-     width: 295px;
-     left: 10%;
-     margin-top: 30px;
-     margin-left: 0;
- }
+        }
+       .option__communication p {
+           position: absolute;
+           width: 295px;
+           left: 10%;
+           margin-top: 30px;
+           margin-left: 0;
+        }
 
 
 
- .option__communication-left {
-     left: 0px;
- }
+        .option__communication-left {
+            left: 0px;
+         }
 
 
- .option__communication-center {
-    left: 380px; 
- }
+        .option__communication-center {
+           left: 380px; 
+        }
  
- .option__communication-right {
-     left: 760px;
-}
+        .option__communication-right {
+           left: 760px;
+         }
 
-
-
-
-
-    
  }
       
 
@@ -654,7 +640,7 @@ h1 {
         width: 1250px;
         margin-left: 1%;
         padding-right: 10px;
-    padding-left: 35px;
+        padding-left: 35px;
     }
 
     .small-title {
@@ -666,17 +652,17 @@ h1 {
     
     
     .portfolio__h1 {
-    padding-top: 73px;
+        padding-top: 73px;
     }
     
     .excursion {
-      position: relative;
-      height: 560px;
+        position: relative;
+        height: 560px;
       }
 
 
-      .excursion__registration {
-        width: 580px;
+    .excursion__registration {
+         width: 580px;
          height: 490px;
          background: url("./img/form-back.png");
          background-color: white;
@@ -754,13 +740,13 @@ h1 {
      }
 
     .excursion__h1 {
-    font-size: 36px;
-    text-align: right;
-    padding-left: 3%;
-    position: absolute;
-    left: 80px;
-    top: 56px;
-    width: 420px;
+        font-size: 36px;
+        text-align: right;
+        padding-left: 3%;
+        position: absolute;
+        left: 80px;
+        top: 56px;
+        width: 420px;
     }
     .option {
         margin-left: 50px;
@@ -783,7 +769,7 @@ h1 {
         margin-left: 7.5%;
         margin-left: 9.5%;
         padding-right: 40px;
-    padding-left: 50px;
+        padding-left: 50px;
     }
 
     .small-title {
@@ -795,18 +781,18 @@ h1 {
     
     
     .portfolio__h1 {
-    padding-top: 71px;
+        padding-top: 71px;
     }
     
 
     .excursion {
         position: relative;
-      height: 560px;
+        height: 560px;
       }
      
     
  .excursion__registration {
-    width: 580px;
+     width: 580px;
      height: 490px;
      background: url("./img/form-back.png");
      background-color: white;
@@ -907,7 +893,7 @@ h1 {
         width: 1240px;
         margin-left: 18%;
         padding-right: 40px;
-    padding-left: 50px;
+        padding-left: 50px;
     }
 
     .small-title {
@@ -919,7 +905,7 @@ h1 {
     
     
     .portfolio__h1 {
-    padding-top: 71px;
+        padding-top: 71px;
     }
     
     .excursion {
@@ -929,7 +915,7 @@ h1 {
 
      
  .excursion__registration {
-    width: 580px;
+     width: 580px;
      height: 490px;
      background: url("./img/form-back.png");
      background-color: white;
