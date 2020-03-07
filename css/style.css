@@ -286,7 +286,7 @@ h1 {
  
  
  }
- 
+
  .form__input {
      font-size: 14px;
      background-image: url("./img/input.png");
@@ -749,6 +749,7 @@ h1 {
     .option__communication p {
      width: 100%;
  }
+}
 @media screen and (min-width: 1400px) {
     .site__content-examples {
         background: url("../img/background.png");
@@ -998,8 +999,5 @@ h1 {
         margin-left: 373px;
     }
 
-.site__content-city {
 
 }
-
- }
