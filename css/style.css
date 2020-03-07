@@ -139,7 +139,7 @@ h1 {
     background: url('./img/background.png');
     padding-left: 45px;
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 14px;
     color:#575757;
     background: url('../img/check1.png') no-repeat left 20px top 0, url('../img/check2.png') no-repeat left 25px top 4.5px;
 
@@ -240,10 +240,8 @@ h1 {
    }
 
     .slider {
-        width: 80%;
-        margin-left: 10%;
-        padding-right: 30px;
-    padding-left: 30px;
+        width: 98%;
+        margin-left: 1%;
     }
 
     .small-title {
@@ -269,7 +267,6 @@ h1 {
  .excursion__registration {
     width: 70%;
      height: 390px;
-     background: url("./img/form-back.png");
      background-color: white;
      position: absolute;
      top: 720px;
@@ -368,8 +365,8 @@ h1 {
         border-bottom: none;
     }
     .slider {
-        width: 80%;
-        margin-left: 10%;
+        width: 98%;
+        margin-left: 1%;
         padding-right: 30px;
         padding-left: 30px;
     }
@@ -479,8 +476,8 @@ h1 {
  @media screen and (min-width: 800px) {
 
 .slider {
-    width: 90%;
-    margin-left: 5%;
+    width: 98%;
+    margin-left: 1%;
 }
 
  }
