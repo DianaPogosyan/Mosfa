@@ -254,7 +254,8 @@ h1 {
     }
     
     .excursion__h1 {
-        font-size: 30px;
+        font-size: 25px;
+        margin-bottom: 30px;
     }
     .option__title {
         font-size: 30px;
