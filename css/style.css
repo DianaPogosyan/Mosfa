@@ -192,8 +192,8 @@ h1 {
     
 }
 .option__communication p {
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .excursion__h1 {
@@ -348,7 +348,11 @@ h1 {
  .option__title {
      margin-left: 15%;
  }
-    
+ .option__communication p {
+    width: 60%;
+    margin-left: 20%;
+} 
+
  }
 
  @media screen and (min-width: 700px) {
@@ -446,7 +450,7 @@ h1 {
      
      .form__button {
          font-family: 'Montserrat-bold';
-         font-size: 14px;
+         font-size: 17px;
          background-color: #e64839;
          border: none;
          border-radius: 40px;
@@ -460,6 +464,7 @@ h1 {
      }
      .option__title {
          margin-top: 20px;
+         left: 0;
      }
      
  
@@ -609,9 +614,9 @@ h1 {
  .option__communication p {
      position: absolute;
      width: 295px;
-     left: 35px;
+     left: 10%;
      margin-top: 30px;
-     
+     margin-left: 0;
  }
 
 
