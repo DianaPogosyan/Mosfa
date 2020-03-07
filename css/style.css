@@ -26,8 +26,10 @@
 }
 
 .site__content-examples {
-    background: url("../img/background.png");
-    height: 1100px;
+    height: 980px;
+    background: linear-gradient(rgba(60, 64, 77, 0.877), rgb(58, 32, 32));
+    border-bottom: 6px solid rgb(148, 99, 99);
+
 }
 .portfolio {
     margin-top: 0;
@@ -85,11 +87,11 @@ h1 {
 
  .excursion__registration {
    width: 80%;
-    height: 270px;
+    height: 290px;
     background: url("./img/form-back.png");
     background-color: white;
     position: absolute;
-    top: 620px;
+    top: 600px;
     left: 10%;
 }
 
@@ -127,7 +129,7 @@ h1 {
     color: #353535;
     width: 85%;
     height: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
     margin-left: 5%;
     padding-left: 15px;
     cursor: pointer;
@@ -136,10 +138,10 @@ h1 {
 .form__consent {
     background: url('./img/background.png');
     padding-left: 45px;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 10px;
     color:#575757;
-    background: url('../img/check1.png') no-repeat left 20px top 2px, url('../img/check2.png') no-repeat left 25px top 7px;
+    background: url('../img/check1.png') no-repeat left 20px top 0, url('../img/check2.png') no-repeat left 25px top 4.5px;
 
 }
 .form__consent a{
@@ -158,7 +160,7 @@ h1 {
     height: 62px;
     color: white;
     text-decoration: underline;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 18px;
     
 }
@@ -167,15 +169,19 @@ h1 {
     text-align: center;
     color: #424141;
     font-size: 16px;
-    width: 90%;
-    margin-left: 4%;
+    width: 98%;
+    margin-left: 1%;
+    
 }
 
 .option__title {
+    font-family: 'Montserrat-bold';
+    font-size: 18px;
     color: #262626;
     margin-bottom: 20px;
     text-align: left;
     margin-left: 10%;
+    margin-top: 30px;
 }
 
 .option__communication {
@@ -185,7 +191,10 @@ h1 {
 
     
 }
-
+.option__communication p {
+    width: 90%;
+    margin-left: 5%;
+}
 
 .excursion__h1 {
     font-size: 19px;
@@ -225,7 +234,6 @@ h1 {
  }
 
  @media screen and (min-width: 600px) {
-
     .slider {
         width: 80%;
         margin-left: 10%;
@@ -246,6 +254,9 @@ h1 {
     }
     
     .excursion__h1 {
+        font-size: 30px;
+    }
+    .option__title {
         font-size: 30px;
     }
     
@@ -331,6 +342,7 @@ h1 {
  
  .option {
      margin-top: 15%;
+     margin-bottom: 10px;
  }
  
  .option__title {
@@ -343,10 +355,11 @@ h1 {
     .site__content-examples {
         background: url("../img/background.png");
         height: 100%;
+        border-bottom: none;
     }
     .slider {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         padding-right: 30px;
         padding-left: 30px;
     }
@@ -445,7 +458,9 @@ h1 {
          margin-left: 28px;
          
      }
-     
+     .option__title {
+         margin-top: 20px;
+     }
      
  
  }
@@ -575,10 +590,11 @@ h1 {
   }
 
   .option {
-    
+    width: auto;
      height: 459px;
      position: relative;
      margin-top: 0;
+     margin-left: 0;
  } 
  .option__title {
     text-align: left;
@@ -592,7 +608,9 @@ h1 {
  }
  .option__communication p {
      position: absolute;
-     width: 343px;
+     width: 295px;
+     left: 35px;
+     margin-top: 30px;
      
  }
 
@@ -746,9 +764,6 @@ h1 {
     .option__communication-right {
         left: 800px;
     }
-    .option__communication p {
-     width: 100%;
- }
 }
 @media screen and (min-width: 1400px) {
     .site__content-examples {
@@ -998,6 +1013,5 @@ h1 {
     .option {
         margin-left: 373px;
     }
-
-
+    
 }
