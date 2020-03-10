@@ -263,7 +263,7 @@
     .form__consent {
        padding-left: 55px;
        font-size: 14px;
-       background: url('../img/check1.png') no-repeat left 30px top 2px, url('../img/check2.png') no-repeat left 35px top 7px;
+       background-position: left 30px top 2px, left 35px top 7px;
     }
 
     .form__consent a {
@@ -317,7 +317,7 @@
      .form__consent {
          padding-left: 65px;
          margin-top: 10px;
-         background: url('../img/check1.png') no-repeat left 40px top 2px, url('../img/check2.png') no-repeat left 45px top 7px;
+         background-position: left 40px top 2px, left 45px top 7px;
      
      }
      
