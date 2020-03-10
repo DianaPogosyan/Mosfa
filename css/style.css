@@ -35,10 +35,8 @@
     margin-top: 0;
 }
 .slider {
-    margin-left: 0;
-    width: 96%;
+    width: 100%;
     position: relative;
-    padding-left: 2%;
 }
 .prev,
 .next {
@@ -144,10 +142,16 @@
     background: url('../img/check1.png') no-repeat left 10px top 0, url('../img/check2.png') no-repeat left 15px top 4.5px;
 
 }
-.form__consent a{
+.form__consent a {
     color: #142277;
     text-decoration: underline;
     font-size: 10px;
+}
+.form__consent a:hover { 
+    color: rgb(160, 68, 99);
+}
+.form__consent a:active { 
+    color: rgb(51, 9, 9);
 }
 
 .form__button {
@@ -165,6 +169,13 @@
     
 }
 
+.form__button:hover {
+    background-color: rgb(71, 7, 7);
+}
+.form__button:active {
+    background-color: rgb(2, 27, 26);
+}
+
 .option {
     text-align: center;
     color: #424141;
@@ -173,6 +184,14 @@
     margin-left: 1%;
     
 }
+
+.slider__item {
+    text-align: center;
+}
+.slider__img {
+    margin: auto;
+}
+
 
 .option__title {
     font-family: 'Montserrat-bold';
@@ -190,13 +209,6 @@
 }
 
 @media screen and (min-width: 500px) {
-
-    .slider {
-         width: 98%;
-         margin-left: 1%;
-         padding-right: 5px;
-         padding-left: 5px;
-    }
 
     .small-title {
          font-size: 25px;
@@ -246,7 +258,6 @@
        height: 52px;
        margin-bottom: 20px;
        margin-left: 6.5%;
-       padding-left: 15px;
     }
  
     .form__consent {
@@ -299,7 +310,6 @@
     
     .excursion__registration {
          width: 60%;
-         height: 400px;
          top: 240px;
          left: 20%;
      }
@@ -312,7 +322,6 @@
      }
      
      .form__button {
-         
          font-size: 17px;
      }
      .option__title {
@@ -327,10 +336,6 @@
         
     .site__content-examples {
         height: 100%;
-     }
-     .slider {
-         width: 100%;
-         margin-left: 0%;
      }
          
      .excursion {
@@ -409,10 +414,10 @@
 
 @media screen and (min-width: 1280px) {
     .slider {
-        width: 95%;
-        margin-left: 2.5%;
-        padding-right: 22px;
-        padding-left: 35px;
+        width: 98%;
+        margin-left: 1%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .excursion__registration {
@@ -451,10 +456,9 @@
 
     .slider {
         width: 1240px;
-        margin-left: 7.5%;
         margin-left: 9.5%;
         padding-right: 40px;
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
 
